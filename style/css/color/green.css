@@ -20,7 +20,7 @@ i.large {
 .btn,
 .btn-group > .btn,
 .parallax .btn {
-    background: #1abb9c;
+    background: rgb(125, 173, 245);
 }
 .btn:hover,
 .btn:focus,
@@ -30,7 +30,7 @@ i.large {
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-    background: #17a78b;
+    background: rgb(0, 173, 245);
 }
 .sb-navigation-left:hover,
 .sb-navigation-right:hover {
