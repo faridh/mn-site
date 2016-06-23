@@ -704,7 +704,7 @@ i.contact {
 /*	HEADER NAVBAR
 /*-----------------------------------------------------------------------------------*/
 .offset {
-    padding-top: 110px;
+    padding-top: 25px;
 }
 
 .offset-sections {
@@ -3274,6 +3274,16 @@ textarea {
     float: left;
     top: 0px;
     text-align: justify;
+}
+
+.company-logo {
+    padding-left: 35px;
+}
+
+.company-description {
+    font-family: 'Montserrat', sans-serif;
+    color: #152C4E;
+    font-size: 12px;
 }
 
 
