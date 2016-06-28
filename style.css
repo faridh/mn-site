@@ -129,6 +129,7 @@ h6 {
     margin-bottom: 20px;
     display: inline-block;
 }
+
 .post-title {
     font-size: 60px;
     line-height: 61px;
@@ -139,11 +140,11 @@ h6 {
 
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   .post-title {
     margin-left: auto;
-  }  
-}  
+  }
+}
 
 .post-title a {
     color: #4e4e4e
@@ -1144,7 +1145,7 @@ footer .social li {
     height: 30px;
     background-size: 30px 30px;
 }
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) { 
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
 	.tp-loader {
 	    background-image: url(style/images/loading@2x.gif)
 	}
@@ -1219,7 +1220,7 @@ footer .social li {
     content: '\e75e'
 }
 /* Firefox Fix */
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
 	.sb-navigation-left:before {
 	    padding-right: 1px
 	}
@@ -2491,7 +2492,7 @@ textarea {
 /*-----------------------------------------------------------------------------------*/
 /*	RESPONSIVE
 /*-----------------------------------------------------------------------------------*/
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 	.fix-portfolio .thumbs {
 	    margin-right: -6px
 	}
@@ -2524,7 +2525,7 @@ textarea {
 	    width: 70%
 	}
 }
-@media (min-width: 768px) and (max-width: 979px) { 
+@media (min-width: 768px) and (max-width: 979px) {
 	.navbar .container {
 	    width: 724px
 	}
@@ -2587,7 +2588,7 @@ textarea {
 	#header.navbar .nav > li > a {
 		padding: 0;
 	}
-	#header .dropdown-menu li a:hover, 
+	#header .dropdown-menu li a:hover,
 	#header .dropdown-menu li a.active,
 	#header .dropdown-menu li:first-child a {
 		padding: 0;
@@ -2634,7 +2635,7 @@ textarea {
 	    width: 90%
 	}
 }
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
 	body {
 	    padding-right: 0px !important;
 	    padding-left: 0px !important;
@@ -2644,8 +2645,8 @@ textarea {
 	    padding-right: 25px !important;
 	    padding-left: 25px !important;
 	}
-	#header.navbar-fixed-top, 
-	#header.navbar-fixed-bottom, 
+	#header.navbar-fixed-top,
+	#header.navbar-fixed-bottom,
 	#header.navbar-static-top {
 		margin: 0;
 	}
@@ -2708,7 +2709,7 @@ textarea {
 	#header.navbar .nav > li > a {
 		padding: 0;
 	}
-	#header .dropdown-menu li a:hover, 
+	#header .dropdown-menu li a:hover,
 	#header .dropdown-menu li a.active,
 	#header .dropdown-menu li:first-child a {
 		padding: 0;
@@ -2874,11 +2875,11 @@ textarea {
     margin-top: 25px;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   .subtitle {
     margin-right: auto;
-  }  
-}    
+  }
+}
 
 
 .paragraph {
@@ -2889,13 +2890,14 @@ textarea {
     width: 800px;
     margin: 0 auto;
     margin-top: 30px;
+    text-align: justify;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   .paragraph {
     margin-right: auto;
-  }  
-} 
+  }
+}
 
 .view {
     height: 200px;
@@ -2933,7 +2935,7 @@ textarea {
 .item .mask .center {
    margin: auto;
    text-align: center;
-} 
+}
 
 .item .mask p {
    color: #fff;
@@ -2942,7 +2944,7 @@ textarea {
    width:  120px;
    text-align: center;
    margin:  0 auto;
-}  
+}
 
 .item .mask:hover {
    opacity: 1.0;
@@ -2978,7 +2980,7 @@ textarea {
 }
 
 .header-img {
-    background-image: url(style/images/art/header-img.jpg); 
+    background-image: url(style/images/art/header-img.jpg);
 }
 
 .bold-divider {
@@ -2997,7 +2999,7 @@ textarea {
     font-size: 11px;
     margin-top: -17px;
 }
-    
+
 
 .member-name {
     font-family: 'Montserrat', sans-serif;
@@ -3081,29 +3083,27 @@ textarea {
 .builders {
     display: block;
     width: 60%;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
-    height: 400px;    
+    height: 100%;
 }
 
 .colombia-logo {
-    display:inline-block;
-    float: left;
-    margin: 0 20px;
+    text-align: center;
+    width: 50%;
 }
 
 .mx-logo {
-    display: inline-block;
+    text-align: center;
+    width: 50%;
     float: left;
-    margin-left:150px;
-    margin-right: 60px;
-    margin-top: 40px;
 }
 
 .latam-logo {
-    display:inline-block;
-    float: left;
-    margin-left: 150px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    float: right;
 }
 
 @media all and (min-width: 960px) {
@@ -3115,6 +3115,16 @@ textarea {
         color: #11355F;
         text-align: center;
     }
+    .post-title {
+        font-size: 60px;
+        line-height: 61px;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        margin-top: -60px;
+
+    }
+
 }
 
 @media all and (max-width: 959px) and (min-width: 600px) {
@@ -3126,8 +3136,87 @@ textarea {
         color: #11355F;
         text-align: center;
     }
+    .post-title {
+        font-size: 40px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        margin-top: -40px;
+
+    }
+    .subtitle {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        width: 100%;
+        margin:0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .paragraph {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin-right: 342px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: justify;
+        padding: 0px 25px;
+    }
+    .subtitle-negative {
+        color: #11355F;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        width: 100%;
+        margin:0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .paragraph-negative {
+        color: #11355F;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin-right: 342px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 0px 25px;
+    }
+    .builders {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+    }
+
+    .colombia-logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .mx-logo {
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+
+    .latam-logo {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        float: right;
+    }
+    .inner-wrapper{
+        height: 500px;
+    }
+
 }
- 
+
 @media all and (max-width: 599px) and (min-width: 320px) {
     .post-title-sections {
         font-family: 'Montserrat', sans-serif;
@@ -3137,6 +3226,86 @@ textarea {
         color: #11355F;
         text-align: center;
     }
+    .post-title {
+        font-size: 30px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        margin-top: -30px;
+
+    }
+    .subtitle {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        width: 100%;
+        margin:0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .paragraph {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin-right: 342px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: justify;
+        padding: 0px 25px;
+    }
+    .subtitle-negative {
+        color: #11355F;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        width: 100%;
+        margin:0 auto;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .paragraph-negative {
+        color: #11355F;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin-right: 342px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 0px 25px;
+        text-align: justify;
+    }
+    .builders {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+    }
+
+    .colombia-logo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .mx-logo {
+        text-align: center;
+        width: 100%;
+        float: left;
+    }
+
+    .latam-logo {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        float: right;
+    }
+    .inner-wrapper{
+        height: 550px;
+    }
+
 }
 
 @media all and (min-width: 960px) {
@@ -3162,7 +3331,7 @@ textarea {
         padding: 15px 20px 0px 20px;
     }
 }
- 
+
 @media all and (max-width: 599px) and (min-width: 320px) {
     .post-secundary-sections {
         font-family: 'Montserrat', sans-serif;
@@ -3252,7 +3421,7 @@ textarea {
 }
 
 .team-member {
-    
+
 }
 
 .portfolio-container {
@@ -3264,7 +3433,7 @@ textarea {
 .company-photo {
     position: relative;
     width: 35%;
-    float: left; 
+    float: left;
 }
 
 .company-info {
